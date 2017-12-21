@@ -1,0 +1,152 @@
+ *{
+ 	margin: 0;
+ 	padding: 0;
+ 	font-size: 20px;
+ }
+  img{
+  	display: block;
+	max-width: 100%;
+	border-radius: 3px;
+  }
+ .navbar-box{
+ 	height: 80px;
+ }
+ .small-box{
+ 	margin-top: 15px;
+ }
+ ul.nav-tabs{
+        width: 200px;
+        margin-top: 20px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        text-align: center;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+        margin: 60px 0px 0px -90px;
+    }
+     ul.nav-tabs li{
+        margin: 0;
+        border-top: 1px solid #ddd;
+    }
+    ul.nav-tabs li:first-child{
+    	border: 0;
+    }
+    ul.nav-tabs li a{
+    	font-size: 20px;
+    	width: 200px;
+    }
+     ul.nav-tabs li a:hover{
+     	background: #000000;
+     	color: #FFFFFF;
+     }
+	.huadong{
+	margin-top: 60px;
+	margin-left: -20px;
+	}
+	#section-2,#section-3,#section-4,#section-5{
+		margin-left: 15px;
+	}
+	
+    .news-list-item .title{
+    	display: block;
+    	color: #444;
+    	font-size: 25px;
+    	font-weight: bold;
+    	margin-bottom: 75px;
+    	line-height: 1.5;
+    }
+	.news-list-item .title .info{
+		color: #999;
+
+	}
+  	.news-list-item .title:hover{
+  	text-decoration: none;
+  	color: #337AB7;
+  }
+	.news-list-item{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-bottom: 1px solid #eee;		
+	}
+	.side-bar-card{
+		background: rgba(0,0,0,.1);
+		margin-top: 60px;
+		margin-left: 60px;
+		border-radius: 5px;
+	}
+	.side-bar-card .card-title{
+		font-size: 25px;
+		font-weight: bold;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	.side-bar-card .card-title,
+	.side-bar-card .card-body .list .item{
+		padding: 10px 15px;
+	}
+	.side-bar-card .card-body .list .item:hover{
+		background: rgba(0,0,0,.05);
+	}
+	.card-body .list .item{
+		padding-bottom: 5px;
+	}
+	.card-body .list .item .desc{
+		color: #999;
+	}
+	.news-title{
+		line-height: 1.5;
+	}
+	.news-status{
+		color: #999;
+		font-size: 18px;
+	}
+	.news-status .label{
+		opacity: 0.8;
+		cursor: pointer;
+	}
+  	.news-content{
+  		margin-top: 40px;
+  		text-indent: 2em;
+  		line-height: 1.8;
+  	}
+	.item .desc{
+		margin-top: 10px;
+		font-size: 17px;
+	}
+	.footer{
+		text-align: center;
+		padding: 20px;
+	}
+	
+	/*login*/
+	.container-box{
+		max-width: 500px;
+	}
+	.container-box h1 small a{
+		text-decoration: none;
+		
+	}
+	.container-box h1 small a:hover{
+		color: red;
+	}
+	.container-box form{
+		margin-top: 30px;
+		margin-bottom:250px;
+	}
+	.container-box form button{
+		margin-top: 30px;
+	}
+	
+/*signup*/
+
+	.container-box .form-group:nth-child(4){
+		font-size: 18px;
+		color: #000;
+	}
+	.container-box .form-group:nth-child(4) a{
+		text-decoration: underline;
+		color: blue;
+		font-size: 15px;
+	}
+	.container-box .form-group:nth-child(4) a:hover{
+		color: red;
+	}

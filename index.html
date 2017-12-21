@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="css/css.css"/>
+	<script src="js/js.js"></script>
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+	<script src="bootstrap-3.3.7-dist/js/jquery-3.1.1.js"></script>
+	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<title>www.Bootstrap_news.com</title>
+</head>
+<body data-spy="scroll" data-target="#myScroll">
+	<!--导航条-->
+	<div class="navbar navbar-inverse navbar-box">
+		<div class="container-fluid small-box">
+			<!--logo-->
+		<div class="col-sm-2">
+		<div class="navbar-header">
+			<a href="index.html" class="navbar-brand">Lemon自学网</a>
+		</div>
+		</div>
+		<!--logo结束-->
+			<!--导航栏-->
+			<div class="col-sm-5">
+			<ul class="nav navbar-nav">
+				<li class="active dropdown"><a href="#" class="dropdown-toggle" 
+					data-toggle="dropdown">前端开发
+				<span class="caret"></span>
+				</a>
+				<ul class="dropdown-menu">
+					<li><a href="">HTML5</a></li>
+					<li class="divider"></li>
+					<li><a href="">CSS3</a></li>
+					<li class="divider"></li>
+					<li><a href="">JavaScript</a></li>
+					<li class="divider"></li>
+					<li><a href="">jQuery</a></li>
+				</ul>
+				</li>
+				<li class="dropdown"><a href="#" class="dropdown-toggle"
+					data-toggle="dropdown">后端开发
+				<span class="caret"></span>
+				</a>
+				<ul class="dropdown-menu">
+					<li><a href="">PHP</a></li>
+					<li class="divider"></li>
+					<li><a href="">JAVA</a></li>
+					<li class="divider"></li>
+					<li><a href="">C/C++</a></li>
+					<li class="divider"></li>
+					<li><a href="">Python</a></li>
+				</ul>
+				</li>
+				<li class="dropdown"><a href="#" class="dropdown-toggle"
+					data-toggle="dropdown">移动开发
+				<span class="caret"></span>
+				</a>
+				<ul class="dropdown-menu">
+					<li><a href="">Android开发</a></li>
+					<li class="divider"></li>
+					<li><a href="">IOS开发</a></li>
+				</ul>
+				</li>
+				<li class="dropdown"><a href="#" class="dropdown-toggle"
+					data-toggle="dropdown">数据库
+				<span class="caret"></span>
+				</a>
+				<ul class="dropdown-menu">
+					<li><a href="">MySql</a></li>
+					<li class="divider"></li>
+					<li><a href="">Sql Server</a></li>
+				</ul>
+				</li>
+			</ul>
+			</div>
+			
+			<div class="col-sm-3">
+				<form class="navbar-form">
+					<div class="form-group">
+						<input type="search" class="form-control" placeholder="搜索..."/>
+					</div>
+					<button type="submit" class="btn btn-info">搜索</button>
+				</form>
+			</div>
+			
+			<div class="col-sm-2">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="login.html"><span class="glyphicon glyphicon-user"></span>登录</a></li>
+				<li><a href="signup.html"><span class="glyphicon glyphicon-log-in"></span>注册</a></li>
+			</ul>
+			<!--导航栏结束-->
+			</div>
+		</div>
+	</div>
+	<!--导航条结束-->
+	<!--中间内容-->
+	<div class="container">
+		<div class="row">
+			<!--中间左边-->
+				<div class="col-sm-2" id="myScroll">
+					<ul class="nav nav-tabs nav-stacked" id="myNav">
+						<li><a href="#section-1">首页</a></li>
+						<li><a href="#section-2">前端开发</a></li>
+						<li><a href="#section-3">后端开发</a></li>
+						<li><a href="#section-4">移动开发</a></li>
+						<li><a href="#section-5">数据库</a></li>
+					</ul>
+				</div>
+				<!--中间左边结束-end-->
+				<!--中间-->
+				<div class="col-sm-7">
+				  <div class="carousel slide huadong" id="myCarousel" id="section-1">
+				  	<ol class="carousel-indicators">
+				  		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				  		<li data-target="#myCarousel" data-slide-to="1"></li>
+				  		<li data-target="#myCarousel" data-slide-to="2"></li>
+				  		<li data-target="#myCarousel" data-slide-to="3"></li>
+				  		<li data-target="#myCarousel" data-slide-to="4"></li>				  		
+				  	</ol>
+				  	<div class="carousel-inner">
+				  		<div class="item active">
+				  			<img src="img/1.jpg" />
+				  		</div>
+				  		<div class="item">
+				  			<img src="img/2.jpg" />
+				  		</div>
+				  		<div class="item">
+				  			<img src="img/3.jpg" />
+				  		</div>
+				  		<div class="item">
+				  			<img src="img/4.jpg" />
+				  		</div>
+				  		<div class="item">
+				  			<img src="img/5.jpg" />
+				  		</div>
+				  	</div>
+				  	<a class="carousel-control left" href="#myCarousel"
+				  		data-slide="prev"></a>
+				  		<a class="carousel-control right" href="#myCarousel"
+				  		data-slide="next"></a>
+				  </div>
+				<hr>
+				<h2 id="section-2">前端开发</h2>
+					<div class="news-list">
+						<div class="news-list-item clearfix">
+							<div class="col-xs-5">
+							<img src="img/new-list.png"/>
+							</div>
+							<div class="col-xs-7">
+								<a href="news.html" class="title">AI 全面入侵，程序员到了 2040 年还能继续敲代码吗？</a>
+								<div class="info">
+									<span class="glyphicon glyphicon-user">小新</span>·
+									<span>15K评论</span>·
+									<span>1分钟前</span>
+								</div>
+							</div>
+						</div>
+						
+						<div class="news-list-item clearfix">
+							<div class="col-xs-5">
+							<img src="img/new-list.png"/>
+							</div>
+							<div class="col-xs-7">
+								<a href="news.html" class="title">AI 全面入侵，程序员到了 2040 年还能继续敲代码吗？</a>
+								<div class="info">
+									<span class="glyphicon glyphicon-user">小新</span>·
+									<span>15K评论</span>·
+									<span>1分钟前</span>
+								</div>
+							</div>
+						</div>
+					
+					<h2 id="section-3">后端开发</h2>
+						<div class="news-list-item clearfix">
+							<div class="col-xs-5">
+							<img src="img/new-list.png"/>
+							</div>
+							<div class="col-xs-7">
+								<a href="news.html" class="title">AI 全面入侵，程序员到了 2040 年还能继续敲代码吗？</a>
+								<div class="info">
+									<span class="glyphicon glyphicon-user">小新</span>·
+									<span>15K评论</span>·
+									<span>1分钟前</span>
+								</div>
+							</div>
+						</div>
+						
+						<div class="news-list-item clearfix">
+							<div class="col-xs-5">
+							<img src="img/new-list.png"/>
+							</div>
+							<div class="col-xs-7">
+								<a href="news.html" class="title">AI 全面入侵，程序员到了 2040 年还能继续敲代码吗？</a>
+								<div class="info">
+									<span class="glyphicon glyphicon-user">小新</span>·
+									<span>15K评论</span>·
+									<span>1分钟前</span>
+								</div>
+							</div>
+						</div>
+						
+					<h2 id="section-4">移动开发</h2>
+					
+						<div class="news-list-item clearfix">
+							<div class="col-xs-5">
+							<img src="img/new-list.png"/>
+							</div>
+							<div class="col-xs-7">
+								<a href="news.html" class="title">AI 全面入侵，程序员到了 2040 年还能继续敲代码吗？</a>
+								<div class="info">
+									<span class="glyphicon glyphicon-user">小新</span>·
+									<span>15K评论</span>·
+									<span>1分钟前</span>
+								</div>
+							</div>
+						</div>
+						
+						<div class="news-list-item clearfix">
+							<div class="col-xs-5">
+							<img src="img/new-list.png"/>
+							</div>
+							<div class="col-xs-7">
+								<a href="news.html" class="title">AI 全面入侵，程序员到了 2040 年还能继续敲代码吗？</a>
+								<div class="info">
+									<span class="glyphicon glyphicon-user">小新</span>·
+									<span>15K评论</span>·
+									<span>1分钟前</span>
+								</div>
+							</div>
+						</div>	
+						
+						<h2 id="section-5">数据库</h2>
+				
+						<div class="news-list-item clearfix">
+							<div class="col-xs-5">
+							<img src="img/new-list.png"/>
+							</div>
+							<div class="col-xs-7">
+								<a href="news.html" class="title">AI 全面入侵，程序员到了 2040 年还能继续敲代码吗？</a>
+								<div class="info">
+									<span class="glyphicon glyphicon-user">小新</span>·
+									<span>15K评论</span>·
+									<span>1分钟前</span>
+								</div>
+							</div>
+						</div>
+						
+						<div class="news-list-item clearfix">
+							<div class="col-xs-5">
+							<img src="img/new-list.png"/>
+							</div>
+							<div class="col-xs-7">
+								<a href="news.html" class="title">AI 全面入侵，程序员到了 2040 年还能继续敲代码吗？</a>
+								<div class="info">
+									<span class="glyphicon glyphicon-user">小新</span>·
+									<span>15K评论</span>·
+									<span>1分钟前</span>
+								</div>
+							</div>
+						</div>
+						
+					</div>	
+				</div>
+				<!--中间结束-->
+				<!--中间右边-->
+				<div class="col-sm-3">
+					<div class="side-bar-card clearfix">
+						<div class="card-title">24小时热闻</div>
+						<div class="card-body">
+							<div class="list">
+								<div class="item">
+									<div class="title">The machine is the work of Rainbow Robotics, a spin-off from South Korea's Advanced Institute of </div>
+									<div class="desc">20k阅读 1k评论</div>
+								</div>
+								<div class="item">
+									<div class="title">The machine is the work of Rainbow Robotics, a spin-off from South Korea's Advanced Institute of </div>
+									<div class="desc">20k阅读 1k评论</div>
+								</div>
+								<div class="item">
+									<div class="title">The machine is the work of Rainbow Robotics, a spin-off from South Korea's Advanced Institute of </div>
+									<div class="desc">20k阅读 1k评论</div>
+								</div>
+								<div class="item">
+									<div class="title">The machine is the work of Rainbow Robotics, a spin-off from South Korea's Advanced Institute of </div>
+									<div class="desc">20k阅读 1k评论</div>
+								</div>
+								<div class="item">
+									<div class="title">The machine is the work of Rainbow Robotics, a spin-off from South Korea's Advanced Institute of </div>
+									<div class="desc">20k阅读 1k评论</div>
+								</div>
+								<div class="item">
+									<div class="title">The machine is the work of Rainbow Robotics, a spin-off from South Korea's Advanced Institute of </div>
+									<div class="desc">20k阅读 1k评论</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--中间右边结束-->
+		</div>
+	</div>
+	<!--中间内容结束-->
+	<div class="footer">
+		&copy; ChenKaiXin-lemon-2017_Design-1848999832@qq.com
+	</div>
+</body>
+</html>
